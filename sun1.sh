@@ -97,7 +97,9 @@ systemctl enable ctdb.service
 # RESTART CTDB SERVICE
 systemctl restart ctdb
 
-
+# ADD USER TO ACCESS SHARE
+useradd user01
+smbpasswd -a user01
 
 
 
